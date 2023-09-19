@@ -10,9 +10,9 @@
     <title>Mon CV</title>
 </head>
 <body>
-
+    <header>
 <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-md navbar-dark">
+        <nav class="navbar navbar-expand-md navbar-dark my-navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav justify-content-end text-center" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,34 +22,151 @@
                 <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
                     <ul class="navbar-nav fw-bold gap-3 me-5">
                         <li class="nav-item d-flex justify-content-end">
-                            <a class="nav-link text-blue" aria-current="page" href="#presentation" >Présentation</a>
+                            <a class="nav-link text-blue" aria-current="page" href="#accueil" >Accueil</a>
                         </li>
                         <li class="nav-item d-flex justify-content-end">
-                            <a class="nav-link text-blue" href="#photos">Photos</a>
+                            <a class="nav-link text-blue" href="#profil">Profil</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-end">
+                            <a class="nav-link text-blue" href="#competences">Compétences</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-end">
+                            <a class="nav-link text-blue" href="#portofolio">Portofolio</a>
                         </li>
                         <li class="nav-item d-flex justify-content-end">
                             <a class="nav-link text-blue" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item d-flex justify-content-end">
-                            <a class="nav-link text-blue" href="#localisation">Localisation</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+    </header>
+    <main>
 <!-- ACCUEIL -->
-<section>
+<section class="accueil my-background">
+    <div class="container-fluid">
+        <div class="row text-white">
+            <div class="col-12 text-center">
+                <img class="maphoto" src="./public/assets/img/maphoto.jpg" alt="Ma photo de face">
+            </div>
+            <div class="col-12 text-center">
+                Nicolas Do Nascimento
+            </div>
+            <div class="col-12 text-center">
+                Développeur web - intégrateur
+            </div>
+            <div class="col-12 text-center">
+                <button>QUI-JE SUIS?</button>
+            </div>
+        </div>
+    </div>
+
 
 </section> 
 
 <!-- PROFILS -->
+<section class="profil">
+    <div class="conatainer-fluid">
+        <div class="row  text-center">
+            <div class="col-12">
+                <h1>A PROPOS DE MOI</h1>
+            </div>
+            <!-- Photo à gauche -->
+            <div class="col-6">
+                PHOTO
+            </div>
+            <!-- Texte à droite -->
+            <div class="col-6">
+                TEXTE DE PRESENTATION
+            </div>
+        </div>
+    </div>    
+</section>
 
 <!-- COMPETENCES -->
+<section class="competence my-background">
+    <div class="conatainer-fluid">
+        <div class="row text-center text-white">
+            <div class="col-12">
+                <h1>COMPETENCES</h1>
+            </div>
+            <div class="col-6">ICONS</div>
+            <div class="col-6">MINIATURE CV</div>
+            <!-- A Aligner sur la droite ou end -->
+            <div class="col-12"> TITLE-button</div>
+        </div>
+    </div>
+
+</section>
 
 <!-- PORTOFOLIO -->
+<section class="portofolio">
+    <div class="conatainer-fluid">
+        <div class="row text-center">
+            <div class="col-12">
+                <h1>PORTOFOLIO</h1>
+            </div>
+            <!-- Construire un carroussel ? -->
+        </div>
+    </div>
+    
+</section>
 
 <!-- CONTACT -->
+<section class="contact my-background">
+    <div class="conatainer-fluid">
+        <div class="row text-center text-white">
+            <div class="col12">
+                <h1>CONTACT</h1>
+            </div>
+            <!-- Coté gauche (formulaire) -->
+            <div class="col-9">
+                <form>
+                    <div class="mb-3 row">
+                        <label for="nom" class="col-sm-3 col-form-label">Nom :</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="nom" name="nom" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="tel" class="col-sm-3 col-form-label">Téléphone :</label>
+                        <div class="col-sm-9">
+                            <input type="tel" class="form-control" id="tel" name="tel">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="email" class="col-sm-3 col-form-label">Email :</label>
+                        <div class="col-sm-9">
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="message" class="col-sm-3 col-form-label">Message :</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input type="checkbox" class="form-check-input" id="mentions-legales" name="mentions-legales" checked required>
+                        <label class="form-check-label" for="mentions-legales">
+                            J'accepte les mentions légales.
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+            <!-- Coté droit (info perso) -->
+            <div class="col-3">
 
-    
+            </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+    <div class="col-12 text-center">Mentions légales</div>
+</footer>
+<script src="./public/assets/framework/bootstrap.min.js"></script>
 </body>
 </html>

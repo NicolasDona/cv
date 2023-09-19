@@ -1,7 +1,31 @@
 /* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.my-background {
+    background-image: url('../img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 /* header */
+.nav-link:hover  {
+    
+    background-color: #45a04550 ;
+}
+.my-navbar {
+    background-color: #03050350; 
+}
 
 /* main */
+/* section accueil */
+.maphoto {
+    width: 150px;
+    height: 200px;
+}
+
 
 /* footer */
