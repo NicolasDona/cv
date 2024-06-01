@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 .my-background {
-    background-image: url('../img/bg1.jpg');
+    background-color: #1E1F22;
     background-size: cover;
     background-repeat: no-repeat;
 }
