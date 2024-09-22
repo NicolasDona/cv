@@ -8,10 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/cv/public/assets/css/style.css?v=0.0.53">
+    <link rel="stylesheet" href="/cv/public/assets/css/style.css?v=0.0.58">
     <script src="https://kit.fontawesome.com/a1eac4c766.js" crossorigin="anonymous"></script>
     <title>CV de développeur intégrateur web</title>
-    
+
 </head>
 
 <body>
@@ -120,10 +120,10 @@
                     <div class="col-12 col-md-6">
                         <img src="/cv/public/assets/img/cv.webp" alt="image de mon CV" class="img-fluid">
                         <div class="col-12">
-                            <div class="col-12 mt-2 mb-1">
-                                OBTENIR UNE VERSION PDF DE MON CV
+                            <div class="col-12 mt-3 mb-2">
+                                Obtenir une version PDF de mon CV
                             </div>
-                            <div class="col-12 mb-5">
+                            <div class="col-12 mb-3 mt-3">
                                 <a href="/cv/public/assets/docs/CV_2024-06-28_NICOLAS_DO_NASCIMENTO.pdf" target="_blank" aria-label="Télécharger le CV en version PDF" class="btn btn-primary">Télécharger</a>
                             </div>
                         </div>
@@ -206,6 +206,8 @@
                                 217 799</a></div>
                         <div class="mb-5"><a href="mailto:nicolas.donascimento@gmail.com" class="text-decoration-none hover-underline text-white">nicolas.donascimento@gmail.com</a>
                         </div>
+                        <div class="mb-5"><a href="/cv/public/assets/docs/cvlogistique.pdf" class="text-decoration-none hover-underline text-white" target="_blank" aria-label="version pdf pour le domaine de la logistique">Version du cv en PDF pour mes compétences dans le domaine de la logistique</a>
+                        </div>
                         <!-- social media icons -->
                         <div class="mt-3 mb-1 social-icons">
                             <a href="https://www.linkedin.com/in/nicolas-d-694a44245/" target="_blank" class="text-decoration-none hover-underline text-white"><i class="bi bi-linkedin comp-ico"></i></a>
@@ -220,7 +222,7 @@
     <footer>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="/cv/public/assets/js/script.js?v=0.0.1"></script>
+    <script src="/cv/public/assets/js/script.js?v=0.0.3"></script>
 </body>
 
 </html>
